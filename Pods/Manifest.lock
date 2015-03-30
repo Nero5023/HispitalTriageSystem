@@ -1,0 +1,20 @@
+PODS:
+  - Canvas (0.1.2)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - TPKeyboardAvoiding (1.2.6)
+
+DEPENDENCIES:
+  - Canvas
+  - FMDB
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Canvas: ae2faca05a15c4d6659fb3ae5e2a14817df4449a
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  TPKeyboardAvoiding: 0797ad5f2366e2435e605202b01f3b7cff5d82cd
+
+COCOAPODS: 0.36.1

@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFB79C285D7B19001E37C0B3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120691D8F82CAC4B52F61E35 /* libPods.a */; };
+		CE5162B51AC7E70100175A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162B41AC7E70100175A57 /* main.m */; };
+		CE5162B81AC7E70100175A57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162B71AC7E70100175A57 /* AppDelegate.m */; };
+		CE5162BB1AC7E70100175A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162BA1AC7E70100175A57 /* ViewController.m */; };
+		CE5162BE1AC7E70100175A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5162BC1AC7E70100175A57 /* Main.storyboard */; };
+		CE5162C01AC7E70100175A57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5162BF1AC7E70100175A57 /* Images.xcassets */; };
+		CE5162C31AC7E70100175A57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5162C11AC7E70100175A57 /* LaunchScreen.xib */; };
+		CE5162CF1AC7E70100175A57 /* HispitalTriageSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162CE1AC7E70100175A57 /* HispitalTriageSystemTests.m */; };
+		CE5162DA1AC7F85E00175A57 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162D91AC7F85E00175A57 /* registerViewController.m */; };
+		CE8E32E91AC96BE70016C86B /* firstNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */; };
+		CE8E32EC1AC96D2A0016C86B /* selectModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E32EB1AC96D2A0016C86B /* selectModeViewController.m */; };
+		CECB97E21AC97D0D004A37DB /* acheLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB97E11AC97D0D004A37DB /* acheLocationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5162C91AC7E70100175A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5162A71AC7E70100175A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5162AE1AC7E70100175A57;
+			remoteInfo = HispitalTriageSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120691D8F82CAC4B52F61E35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CBD818D3881EBE3443F135 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE5162AF1AC7E70100175A57 /* HispitalTriageSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HispitalTriageSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5162B31AC7E70100175A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5162B41AC7E70100175A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5162B61AC7E70100175A57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE5162B71AC7E70100175A57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE5162B91AC7E70100175A57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE5162BA1AC7E70100175A57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE5162BD1AC7E70100175A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5162BF1AC7E70100175A57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE5162C21AC7E70100175A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE5162C81AC7E70100175A57 /* HispitalTriageSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HispitalTriageSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5162CD1AC7E70100175A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5162CE1AC7E70100175A57 /* HispitalTriageSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HispitalTriageSystemTests.m; sourceTree = "<group>"; };
+		CE5162D81AC7F85E00175A57 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
+		CE5162D91AC7F85E00175A57 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		CE8E32E71AC96BE70016C86B /* firstNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstNavigationViewController.h; sourceTree = "<group>"; };
+		CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstNavigationViewController.m; sourceTree = "<group>"; };
+		CE8E32EA1AC96D2A0016C86B /* selectModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectModeViewController.h; sourceTree = "<group>"; };
+		CE8E32EB1AC96D2A0016C86B /* selectModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectModeViewController.m; sourceTree = "<group>"; };
+		CECB97E01AC97D0D004A37DB /* acheLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acheLocationViewController.h; sourceTree = "<group>"; };
+		CECB97E11AC97D0D004A37DB /* acheLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acheLocationViewController.m; sourceTree = "<group>"; };
+		ED2F83937328A7C8F73A585F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5162AC1AC7E70100175A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB79C285D7B19001E37C0B3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5162C51AC7E70100175A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FF7FDC60B57C9D7E96EAA77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83CBD818D3881EBE3443F135 /* Pods.debug.xcconfig */,
+				ED2F83937328A7C8F73A585F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A5BE5AEAD75904171E0D193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120691D8F82CAC4B52F61E35 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5162A61AC7E70100175A57 = {
+			isa = PBXGroup;
+			children = (
+				CE5162B11AC7E70100175A57 /* HispitalTriageSystem */,
+				CE5162CB1AC7E70100175A57 /* HispitalTriageSystemTests */,
+				CE5162B01AC7E70100175A57 /* Products */,
+				5FF7FDC60B57C9D7E96EAA77 /* Pods */,
+				8A5BE5AEAD75904171E0D193 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5162B01AC7E70100175A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5162AF1AC7E70100175A57 /* HispitalTriageSystem.app */,
+				CE5162C81AC7E70100175A57 /* HispitalTriageSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5162B11AC7E70100175A57 /* HispitalTriageSystem */ = {
+			isa = PBXGroup;
+			children = (
+				CE5162B61AC7E70100175A57 /* AppDelegate.h */,
+				CE5162B71AC7E70100175A57 /* AppDelegate.m */,
+				CE5162B91AC7E70100175A57 /* ViewController.h */,
+				CE5162BA1AC7E70100175A57 /* ViewController.m */,
+				CE5162BC1AC7E70100175A57 /* Main.storyboard */,
+				CECB97E01AC97D0D004A37DB /* acheLocationViewController.h */,
+				CECB97E11AC97D0D004A37DB /* acheLocationViewController.m */,
+				CE8E32EA1AC96D2A0016C86B /* selectModeViewController.h */,
+				CE8E32EB1AC96D2A0016C86B /* selectModeViewController.m */,
+				CE8E32E71AC96BE70016C86B /* firstNavigationViewController.h */,
+				CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */,
+				CE5162D81AC7F85E00175A57 /* registerViewController.h */,
+				CE5162D91AC7F85E00175A57 /* registerViewController.m */,
+				CE5162BF1AC7E70100175A57 /* Images.xcassets */,
+				CE5162C11AC7E70100175A57 /* LaunchScreen.xib */,
+				CE5162B21AC7E70100175A57 /* Supporting Files */,
+			);
+			path = HispitalTriageSystem;
+			sourceTree = "<group>";
+		};
+		CE5162B21AC7E70100175A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5162B31AC7E70100175A57 /* Info.plist */,
+				CE5162B41AC7E70100175A57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5162CB1AC7E70100175A57 /* HispitalTriageSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5162CE1AC7E70100175A57 /* HispitalTriageSystemTests.m */,
+				CE5162CC1AC7E70100175A57 /* Supporting Files */,
+			);
+			path = HispitalTriageSystemTests;
+			sourceTree = "<group>";
+		};
+		CE5162CC1AC7E70100175A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5162CD1AC7E70100175A57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5162AE1AC7E70100175A57 /* HispitalTriageSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5162D21AC7E70100175A57 /* Build configuration list for PBXNativeTarget "HispitalTriageSystem" */;
+			buildPhases = (
+				20B3840A787FAA4AD1D0D37C /* Check Pods Manifest.lock */,
+				CE5162AB1AC7E70100175A57 /* Sources */,
+				CE5162AC1AC7E70100175A57 /* Frameworks */,
+				CE5162AD1AC7E70100175A57 /* Resources */,
+				5F302C1AA024DA13D267B5A5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HispitalTriageSystem;
+			productName = HispitalTriageSystem;
+			productReference = CE5162AF1AC7E70100175A57 /* HispitalTriageSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5162C71AC7E70100175A57 /* HispitalTriageSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5162D51AC7E70100175A57 /* Build configuration list for PBXNativeTarget "HispitalTriageSystemTests" */;
+			buildPhases = (
+				CE5162C41AC7E70100175A57 /* Sources */,
+				CE5162C51AC7E70100175A57 /* Frameworks */,
+				CE5162C61AC7E70100175A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5162CA1AC7E70100175A57 /* PBXTargetDependency */,
+			);
+			name = HispitalTriageSystemTests;
+			productName = HispitalTriageSystemTests;
+			productReference = CE5162C81AC7E70100175A57 /* HispitalTriageSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5162A71AC7E70100175A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Nero Zuo";
+				TargetAttributes = {
+					CE5162AE1AC7E70100175A57 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CE5162C71AC7E70100175A57 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CE5162AE1AC7E70100175A57;
+					};
+				};
+			};
+			buildConfigurationList = CE5162AA1AC7E70100175A57 /* Build configuration list for PBXProject "HispitalTriageSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5162A61AC7E70100175A57;
+			productRefGroup = CE5162B01AC7E70100175A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5162AE1AC7E70100175A57 /* HispitalTriageSystem */,
+				CE5162C71AC7E70100175A57 /* HispitalTriageSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5162AD1AC7E70100175A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5162BE1AC7E70100175A57 /* Main.storyboard in Resources */,
+				CE5162C31AC7E70100175A57 /* LaunchScreen.xib in Resources */,
+				CE5162C01AC7E70100175A57 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5162C61AC7E70100175A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20B3840A787FAA4AD1D0D37C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F302C1AA024DA13D267B5A5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5162AB1AC7E70100175A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECB97E21AC97D0D004A37DB /* acheLocationViewController.m in Sources */,
+				CE5162BB1AC7E70100175A57 /* ViewController.m in Sources */,
+				CE8E32E91AC96BE70016C86B /* firstNavigationViewController.m in Sources */,
+				CE5162B81AC7E70100175A57 /* AppDelegate.m in Sources */,
+				CE8E32EC1AC96D2A0016C86B /* selectModeViewController.m in Sources */,
+				CE5162B51AC7E70100175A57 /* main.m in Sources */,
+				CE5162DA1AC7F85E00175A57 /* registerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5162C41AC7E70100175A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5162CF1AC7E70100175A57 /* HispitalTriageSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5162CA1AC7E70100175A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5162AE1AC7E70100175A57 /* HispitalTriageSystem */;
+			targetProxy = CE5162C91AC7E70100175A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5162BC1AC7E70100175A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5162BD1AC7E70100175A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5162C11AC7E70100175A57 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5162C21AC7E70100175A57 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5162D01AC7E70100175A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE5162D11AC7E70100175A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5162D31AC7E70100175A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CBD818D3881EBE3443F135 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HispitalTriageSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE5162D41AC7E70100175A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED2F83937328A7C8F73A585F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HispitalTriageSystem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE5162D61AC7E70100175A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HispitalTriageSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HispitalTriageSystem.app/HispitalTriageSystem";
+			};
+			name = Debug;
+		};
+		CE5162D71AC7E70100175A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HispitalTriageSystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HispitalTriageSystem.app/HispitalTriageSystem";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5162AA1AC7E70100175A57 /* Build configuration list for PBXProject "HispitalTriageSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5162D01AC7E70100175A57 /* Debug */,
+				CE5162D11AC7E70100175A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5162D21AC7E70100175A57 /* Build configuration list for PBXNativeTarget "HispitalTriageSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5162D31AC7E70100175A57 /* Debug */,
+				CE5162D41AC7E70100175A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5162D51AC7E70100175A57 /* Build configuration list for PBXNativeTarget "HispitalTriageSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5162D61AC7E70100175A57 /* Debug */,
+				CE5162D71AC7E70100175A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5162A71AC7E70100175A57 /* Project object */;
+}

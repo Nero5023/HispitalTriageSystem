@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Canvas" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Canvas" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-Canvas" -l"Pods-FMDB" -l"Pods-TPKeyboardAvoiding" -l"sqlite3"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
