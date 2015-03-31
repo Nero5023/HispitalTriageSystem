@@ -16,6 +16,7 @@
 		CE5162C31AC7E70100175A57 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5162C11AC7E70100175A57 /* LaunchScreen.xib */; };
 		CE5162CF1AC7E70100175A57 /* HispitalTriageSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162CE1AC7E70100175A57 /* HispitalTriageSystemTests.m */; };
 		CE5162DA1AC7F85E00175A57 /* registerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162D91AC7F85E00175A57 /* registerViewController.m */; };
+		CE55D0411ACAE36900A0BF5D /* dataSocre.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55D0401ACAE36900A0BF5D /* dataSocre.m */; };
 		CE8E32E91AC96BE70016C86B /* firstNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */; };
 		CE8E32EC1AC96D2A0016C86B /* selectModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E32EB1AC96D2A0016C86B /* selectModeViewController.m */; };
 		CECB97E21AC97D0D004A37DB /* acheLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB97E11AC97D0D004A37DB /* acheLocationViewController.m */; };
@@ -49,6 +50,8 @@
 		CE5162CE1AC7E70100175A57 /* HispitalTriageSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HispitalTriageSystemTests.m; sourceTree = "<group>"; };
 		CE5162D81AC7F85E00175A57 /* registerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registerViewController.h; sourceTree = "<group>"; };
 		CE5162D91AC7F85E00175A57 /* registerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerViewController.m; sourceTree = "<group>"; };
+		CE55D03F1ACAE36900A0BF5D /* dataSocre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataSocre.h; sourceTree = "<group>"; };
+		CE55D0401ACAE36900A0BF5D /* dataSocre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataSocre.m; sourceTree = "<group>"; };
 		CE8E32E71AC96BE70016C86B /* firstNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstNavigationViewController.h; sourceTree = "<group>"; };
 		CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstNavigationViewController.m; sourceTree = "<group>"; };
 		CE8E32EA1AC96D2A0016C86B /* selectModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectModeViewController.h; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 			children = (
 				CE5162B31AC7E70100175A57 /* Info.plist */,
 				CE5162B41AC7E70100175A57 /* main.m */,
+				CE55D03F1ACAE36900A0BF5D /* dataSocre.h */,
+				CE55D0401ACAE36900A0BF5D /* dataSocre.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				CE5162BB1AC7E70100175A57 /* ViewController.m in Sources */,
 				CE8E32E91AC96BE70016C86B /* firstNavigationViewController.m in Sources */,
 				CE5162B81AC7E70100175A57 /* AppDelegate.m in Sources */,
+				CE55D0411ACAE36900A0BF5D /* dataSocre.m in Sources */,
 				CE8E32EC1AC96D2A0016C86B /* selectModeViewController.m in Sources */,
 				CE5162B51AC7E70100175A57 /* main.m in Sources */,
 				CE5162DA1AC7F85E00175A57 /* registerViewController.m in Sources */,

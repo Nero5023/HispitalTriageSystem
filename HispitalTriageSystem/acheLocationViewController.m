@@ -19,34 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
    
-    NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-    NSString *filePath = [doc stringByAppendingPathComponent:@"bak.db"];
-    //NSLog(@"%@",filePath);
-    FMDatabase *db = [FMDatabase databaseWithPath:filePath];
-    if ([db open]) {
-        NSLog(@"Open succeed");
-        self.db = db;
-    }
-    else
-    {
-        NSLog(@"Open fail");
-    }
-    
-
-}
--(void)query
-{
-
-    FMResultSet *resultSet =[self.db executeQuery:@"SELECT * FROM question_tb"];
-    NSMutableArray *true_next_ques_id;
-    NSMutableArray *false_next_ques_id;
-    NSMutableArray *quetions;
-    while ([resultSet next]) {
-        NSInteger trueId = (NSInteger)[resultSet intForColumn:@"true_next_ques_id"];
-        NSInteger falseId = (NSInteger)[resultSet intForColumn:@"false_next_ques_id"];
-        NSString *ques = [resultSet stringForColumn:@"question"];
-        [quetions addObject:ques];
-    }
 }
 
 - (void)didReceiveMemoryWarning {
