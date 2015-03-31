@@ -36,22 +36,15 @@
 }
 -(void)query
 {
-    struct question_tb
-    {
-        int id;
-        int ture_next_id;
-        int flase_next_id;
-    };
+
     FMResultSet *resultSet =[self.db executeQuery:@"SELECT * FROM question_tb"];
     NSMutableArray *true_next_ques_id;
     NSMutableArray *false_next_ques_id;
     NSMutableArray *quetions;
-    struct question_tb temp;
     while ([resultSet next]) {
         NSInteger trueId = (NSInteger)[resultSet intForColumn:@"true_next_ques_id"];
         NSInteger falseId = (NSInteger)[resultSet intForColumn:@"false_next_ques_id"];
         NSString *ques = [resultSet stringForColumn:@"question"];
-        //[true_next_ques_id addObject:trueId];
         [quetions addObject:ques];
     }
 }
