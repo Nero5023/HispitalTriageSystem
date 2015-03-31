@@ -35,7 +35,7 @@
 -(NSMutableArray *)tureNextQuestionIds
 {
     if (_tureNextQuestionIds==nil) {
-        [_tureNextQuestionIds addObject:@""];   //从1开始
+        _tureNextQuestionIds =[NSMutableArray arrayWithObject:@""];   //从1开始
         FMResultSet *resultSet =[self.dateBase executeQuery:@"SELECT * FROM question_tb"];
         while ([resultSet next]) {
             int trueNextId = [resultSet intForColumn:@"true_next_ques_id"];
@@ -49,7 +49,7 @@
 //要[string integerValue]
 -(NSMutableArray *)falseNextQuestionIds{
     if (_falseNextQuestionIds==nil) {
-        [_falseNextQuestionIds addObject:@""]; //从1开始
+        _falseNextQuestionIds =[NSMutableArray arrayWithObject:@""]; //从1开始
         FMResultSet *resultSet =[self.dateBase executeQuery:@"SELECT * FROM question_tb"];
         while ([resultSet next]) {
             int falseNextId = [resultSet intForColumn:@"false_next_ques_id"];
@@ -63,7 +63,7 @@
 -(NSMutableArray *)questionsName
 {
     if (_questionsName==nil) {
-        [_questionsName addObject:@""]; //从1开始
+        _questionsName =[NSMutableArray arrayWithObject:@""]; //从1开始
         FMResultSet *resultSet =[self.dateBase executeQuery:@"SELECT * FROM question_tb"];
         while ([resultSet next]) {
             NSString *questionName= [resultSet stringForColumn:@"question"];

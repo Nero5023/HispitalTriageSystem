@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BFB79C285D7B19001E37C0B3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 120691D8F82CAC4B52F61E35 /* libPods.a */; };
+		CE1C190F1ACAFEA400D184E2 /* questionSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C190E1ACAFEA400D184E2 /* questionSelectViewController.m */; };
 		CE5162B51AC7E70100175A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162B41AC7E70100175A57 /* main.m */; };
 		CE5162B81AC7E70100175A57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162B71AC7E70100175A57 /* AppDelegate.m */; };
 		CE5162BB1AC7E70100175A57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5162BA1AC7E70100175A57 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		120691D8F82CAC4B52F61E35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CBD818D3881EBE3443F135 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1C190D1ACAFEA400D184E2 /* questionSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questionSelectViewController.h; sourceTree = "<group>"; };
+		CE1C190E1ACAFEA400D184E2 /* questionSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questionSelectViewController.m; sourceTree = "<group>"; };
 		CE5162AF1AC7E70100175A57 /* HispitalTriageSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HispitalTriageSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5162B31AC7E70100175A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5162B41AC7E70100175A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,14 +128,12 @@
 				CE5162B91AC7E70100175A57 /* ViewController.h */,
 				CE5162BA1AC7E70100175A57 /* ViewController.m */,
 				CE5162BC1AC7E70100175A57 /* Main.storyboard */,
+				CE1C190D1ACAFEA400D184E2 /* questionSelectViewController.h */,
+				CE1C190E1ACAFEA400D184E2 /* questionSelectViewController.m */,
 				CECB97E01AC97D0D004A37DB /* acheLocationViewController.h */,
 				CECB97E11AC97D0D004A37DB /* acheLocationViewController.m */,
 				CE8E32EA1AC96D2A0016C86B /* selectModeViewController.h */,
 				CE8E32EB1AC96D2A0016C86B /* selectModeViewController.m */,
-				CE8E32E71AC96BE70016C86B /* firstNavigationViewController.h */,
-				CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */,
-				CE5162D81AC7F85E00175A57 /* registerViewController.h */,
-				CE5162D91AC7F85E00175A57 /* registerViewController.m */,
 				CE5162BF1AC7E70100175A57 /* Images.xcassets */,
 				CE5162C11AC7E70100175A57 /* LaunchScreen.xib */,
 				CE5162B21AC7E70100175A57 /* Supporting Files */,
@@ -145,6 +146,10 @@
 			children = (
 				CE5162B31AC7E70100175A57 /* Info.plist */,
 				CE5162B41AC7E70100175A57 /* main.m */,
+				CE5162D81AC7F85E00175A57 /* registerViewController.h */,
+				CE5162D91AC7F85E00175A57 /* registerViewController.m */,
+				CE8E32E71AC96BE70016C86B /* firstNavigationViewController.h */,
+				CE8E32E81AC96BE70016C86B /* firstNavigationViewController.m */,
 				CE55D03F1ACAE36900A0BF5D /* dataSocre.h */,
 				CE55D0401ACAE36900A0BF5D /* dataSocre.m */,
 			);
@@ -304,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECB97E21AC97D0D004A37DB /* acheLocationViewController.m in Sources */,
+				CE1C190F1ACAFEA400D184E2 /* questionSelectViewController.m in Sources */,
 				CE5162BB1AC7E70100175A57 /* ViewController.m in Sources */,
 				CE8E32E91AC96BE70016C86B /* firstNavigationViewController.m in Sources */,
 				CE5162B81AC7E70100175A57 /* AppDelegate.m in Sources */,

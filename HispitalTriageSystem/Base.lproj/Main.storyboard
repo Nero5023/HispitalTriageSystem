@@ -289,68 +289,146 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mT-U5-gMN">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mT-U5-gMN">
                                 <rect key="frame" x="86" y="93" width="149" height="44"/>
                                 <state key="normal" title="剑突下（上腹部）" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="T2g-Ae-IMr"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3X-hM-tMf">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3X-hM-tMf">
                                 <rect key="frame" x="172" y="165" width="132" height="44"/>
                                 <state key="normal" title="右上腹" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="hVb-dg-HsO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4a-gf-NU5">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4a-gf-NU5">
                                 <rect key="frame" x="16" y="165" width="122" height="44"/>
                                 <state key="normal" title="左上腹" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="XdT-M6-G5m"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21l-gM-7NH">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21l-gM-7NH">
                                 <rect key="frame" x="92" y="231" width="137" height="44"/>
                                 <state key="normal" title="脐周" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="j3W-xV-rjb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bes-08-otU">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bes-08-otU">
                                 <rect key="frame" x="66" y="299" width="189" height="44"/>
                                 <state key="normal" title="小肚子" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="IBd-IZ-Rga"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlS-Wb-Teb">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlS-Wb-Teb">
                                 <rect key="frame" x="16" y="367" width="129" height="44"/>
                                 <state key="normal" title="左下腹" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="9nJ-XE-2yJ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jZ-zB-2q5">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jZ-zB-2q5">
                                 <rect key="frame" x="175" y="367" width="129" height="44"/>
                                 <state key="normal" title="右下腹" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="wLg-e0-kFN"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgn-fp-pqk">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgn-fp-pqk">
                                 <rect key="frame" x="75" y="434" width="170" height="44"/>
                                 <state key="normal" title="整腹弥漫痛" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="ljk-fO-ylh"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkx-oM-FXk">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dkx-oM-FXk">
                                 <rect key="frame" x="60" y="497" width="200" height="44"/>
                                 <state key="normal" title="不能明确哪里痛" backgroundImage="button-blue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="painLocation:" destination="Wel-xA-spo" eventType="touchUpInside" id="1O6-iS-s7b"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="腹痛位置" id="6ck-jJ-rwp"/>
+                    <connections>
+                        <segue destination="OFP-tG-4Sf" kind="push" identifier="painLocationToQues" id="uCx-dX-R5t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ja-ji-2Zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1854" y="1063"/>
+        </scene>
+        <!--问题分诊-->
+        <scene sceneID="AVx-rb-G1A">
+            <objects>
+                <viewController id="OFP-tG-4Sf" customClass="questionSelectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="03Q-YP-oZ2"/>
+                        <viewControllerLayoutGuide type="bottom" id="vH7-96-K9N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xFL-mT-a18">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2M-Bn-b78">
+                                <rect key="frame" x="16" y="504" width="127" height="44"/>
+                                <state key="normal" title="是" backgroundImage="button-blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectYNDidPress:" destination="OFP-tG-4Sf" eventType="touchUpInside" id="phV-7X-G8f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QgY-qm-YUm">
+                                <rect key="frame" x="184" y="504" width="120" height="44"/>
+                                <state key="normal" title="否" backgroundImage="button-blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectYNDidPress:" destination="OFP-tG-4Sf" eventType="touchUpInside" id="Ney-1t-XCW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0Q-X9-J7R">
+                                <rect key="frame" x="26" y="216" width="269" height="89"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="问题分诊" id="iI4-OC-st1"/>
+                    <connections>
+                        <outlet property="questionLabel" destination="P0Q-X9-J7R" id="gaH-WX-cYU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jLx-MO-ise" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2194" y="1062"/>
         </scene>
         <!--First Navigation View Controller-->
         <scene sceneID="rDQ-C1-RjK">
